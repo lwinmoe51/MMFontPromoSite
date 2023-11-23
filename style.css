@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'MyanmarPhetsot';
+    src: url('font/MyanmarPhetsot_Regular.ttf') format('truetype');
+}
+
+body{
+    background-color: #365880;
+    font-size: 2rem;
+    color: white;
+    font-family: 'MyanmarPhetsot'; /* sans-serif; */
+}
+
+.myanmar {
+    border: 1px solid yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alphabet_mm{
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(8,50px);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.alphabet_mm div:nth-child(31){
+    grid-column: 2/3;
+}
+
+.alphabet_mm div:nth-child(32){
+    grid-column: 3/4;
+}
+
+.alphabet_mm div:nth-child(33){
+    grid-column: 4/5;
+}
+
+.number_mm{
+    display: flex;
+}
+
+.number_mm div{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+/* #################### */
+.english {
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.alphabet_eng{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(7,50px);
+    justify-items: center;
+    align-items: center;
+}
+
+.alphabet_eng div:nth-child(25){
+    grid-column: 2/3;
+}
+
+.alphabet_eng div:nth-child(26){
+    grid-column: 3/4;
+}
+
+.number_eng{
+    display: flex;
+}
+
+.number_eng div{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+/* ################# */
+
+.poem_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font-name{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
