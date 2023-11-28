@@ -5,15 +5,15 @@
 }
 
 @font-face {
-    font-family: 'MyanmarPhetsot';
-    src: url('font/MyanmarPhetsot_Regular.ttf') format('truetype');
+    font-family: 'MyanmarSagar';
+    src: url('font/MyanmarSagar_Regular.ttf') format('truetype');
 }
 
 body{
     background-color: #365880;
     font-size: 2rem;
     color: white;
-    font-family: 'MyanmarPhetsot'; /* sans-serif; */
+    font-family: 'MyanmarSagar'; /* sans-serif; */
 }
 
 .myanmar {
