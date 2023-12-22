@@ -5,15 +5,15 @@
 }
 
 @font-face {
-    font-family: 'MyanmarTagu';
-    src: url('font/MyanmarTagu_Regular.ttf') format('truetype');
+    font-family: 'MyanmarJojarPro';
+    src: url('font/MyanmarJojarPro_Regular.ttf') format('truetype');
 }
 
 body{
     background-color: #365880;
     font-size: 2rem;
     color: white;
-    font-family: 'MyanmarTagu'; /* sans-serif; */
+    font-family: 'MyanmarJojarPro'; /* sans-serif; */
 }
 
 .myanmar {
